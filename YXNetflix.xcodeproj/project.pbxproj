@@ -8,13 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		2A4AFA12292B302300C483E3 /* YXNetflixApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4AFA11292B302300C483E3 /* YXNetflixApp.swift */; };
-		2A4AFA14292B302300C483E3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4AFA13292B302300C483E3 /* ContentView.swift */; };
+		2A4AFA14292B302300C483E3 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4AFA13292B302300C483E3 /* HomeView.swift */; };
 		2A4AFA16292B302600C483E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A4AFA15292B302600C483E3 /* Assets.xcassets */; };
 		2A4AFA19292B302600C483E3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A4AFA18292B302600C483E3 /* Preview Assets.xcassets */; };
 		2A4AFA23292B302700C483E3 /* YXNetflixTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4AFA22292B302700C483E3 /* YXNetflixTests.swift */; };
 		2A4AFA2D292B302700C483E3 /* YXNetflixUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4AFA2C292B302700C483E3 /* YXNetflixUITests.swift */; };
 		2A4AFA2F292B302700C483E3 /* YXNetflixUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4AFA2E292B302700C483E3 /* YXNetflixUITestsLaunchTests.swift */; };
 		2A4AFA3F292B315900C483E3 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 2A4AFA3E292B315900C483E3 /* Kingfisher */; };
+		2A4AFA42292B331800C483E3 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4AFA41292B331800C483E3 /* HomeViewModel.swift */; };
+		2A4AFA44292B346900C483E3 /* GlobalHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4AFA43292B346900C483E3 /* GlobalHelper.swift */; };
+		2A4AFA46292B388700C483E3 /* StandardHomeMovieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4AFA45292B388700C483E3 /* StandardHomeMovieView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +40,7 @@
 /* Begin PBXFileReference section */
 		2A4AFA0E292B302300C483E3 /* YXNetflix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YXNetflix.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A4AFA11292B302300C483E3 /* YXNetflixApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YXNetflixApp.swift; sourceTree = "<group>"; };
-		2A4AFA13292B302300C483E3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2A4AFA13292B302300C483E3 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		2A4AFA15292B302600C483E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2A4AFA18292B302600C483E3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2A4AFA1E292B302700C483E3 /* YXNetflixTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YXNetflixTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -46,6 +49,9 @@
 		2A4AFA2C292B302700C483E3 /* YXNetflixUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YXNetflixUITests.swift; sourceTree = "<group>"; };
 		2A4AFA2E292B302700C483E3 /* YXNetflixUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YXNetflixUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		2A4AFA3C292B313500C483E3 /* Kingfisher-master */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = "Kingfisher-master"; path = "../Kingfisher-master"; sourceTree = "<group>"; };
+		2A4AFA41292B331800C483E3 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		2A4AFA43292B346900C483E3 /* GlobalHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalHelper.swift; sourceTree = "<group>"; };
+		2A4AFA45292B388700C483E3 /* StandardHomeMovieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandardHomeMovieView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,7 +106,10 @@
 			isa = PBXGroup;
 			children = (
 				2A4AFA11292B302300C483E3 /* YXNetflixApp.swift */,
-				2A4AFA13292B302300C483E3 /* ContentView.swift */,
+				2A4AFA13292B302300C483E3 /* HomeView.swift */,
+				2A4AFA45292B388700C483E3 /* StandardHomeMovieView.swift */,
+				2A4AFA43292B346900C483E3 /* GlobalHelper.swift */,
+				2A4AFA40292B32F600C483E3 /* ViewModel */,
 				2A4AFA15292B302600C483E3 /* Assets.xcassets */,
 				2A4AFA17292B302600C483E3 /* Preview Content */,
 			);
@@ -145,6 +154,14 @@
 			children = (
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2A4AFA40292B32F600C483E3 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				2A4AFA41292B331800C483E3 /* HomeViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -280,8 +297,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A4AFA14292B302300C483E3 /* ContentView.swift in Sources */,
+				2A4AFA14292B302300C483E3 /* HomeView.swift in Sources */,
+				2A4AFA42292B331800C483E3 /* HomeViewModel.swift in Sources */,
+				2A4AFA44292B346900C483E3 /* GlobalHelper.swift in Sources */,
 				2A4AFA12292B302300C483E3 /* YXNetflixApp.swift in Sources */,
+				2A4AFA46292B388700C483E3 /* StandardHomeMovieView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
