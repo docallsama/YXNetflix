@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A4AFA12292B302300C483E3 /* YXNetflixApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4AFA11292B302300C483E3 /* YXNetflixApp.swift */; };
+		2A4AFA14292B302300C483E3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4AFA13292B302300C483E3 /* ContentView.swift */; };
+		2A4AFA16292B302600C483E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A4AFA15292B302600C483E3 /* Assets.xcassets */; };
+		2A4AFA19292B302600C483E3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A4AFA18292B302600C483E3 /* Preview Assets.xcassets */; };
+		2A4AFA23292B302700C483E3 /* YXNetflixTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4AFA22292B302700C483E3 /* YXNetflixTests.swift */; };
+		2A4AFA2D292B302700C483E3 /* YXNetflixUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4AFA2C292B302700C483E3 /* YXNetflixUITests.swift */; };
+		2A4AFA2F292B302700C483E3 /* YXNetflixUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4AFA2E292B302700C483E3 /* YXNetflixUITestsLaunchTests.swift */; };
+		2A4AFA3F292B315900C483E3 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 2A4AFA3E292B315900C483E3 /* Kingfisher */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2A4AFA1F292B302700C483E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A4AFA06292B302300C483E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A4AFA0D292B302300C483E3;
+			remoteInfo = YXNetflix;
+		};
+		2A4AFA29292B302700C483E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A4AFA06292B302300C483E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A4AFA0D292B302300C483E3;
+			remoteInfo = YXNetflix;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2A4AFA0E292B302300C483E3 /* YXNetflix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YXNetflix.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A4AFA11292B302300C483E3 /* YXNetflixApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YXNetflixApp.swift; sourceTree = "<group>"; };
+		2A4AFA13292B302300C483E3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2A4AFA15292B302600C483E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2A4AFA18292B302600C483E3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2A4AFA1E292B302700C483E3 /* YXNetflixTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YXNetflixTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A4AFA22292B302700C483E3 /* YXNetflixTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YXNetflixTests.swift; sourceTree = "<group>"; };
+		2A4AFA28292B302700C483E3 /* YXNetflixUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YXNetflixUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A4AFA2C292B302700C483E3 /* YXNetflixUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YXNetflixUITests.swift; sourceTree = "<group>"; };
+		2A4AFA2E292B302700C483E3 /* YXNetflixUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YXNetflixUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2A4AFA3C292B313500C483E3 /* Kingfisher-master */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = "Kingfisher-master"; path = "../Kingfisher-master"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2A4AFA0B292B302300C483E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A4AFA3F292B315900C483E3 /* Kingfisher in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A4AFA1B292B302700C483E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A4AFA25292B302700C483E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A4AFA05292B302300C483E3 = {
+			isa = PBXGroup;
+			children = (
+				2A4AFA3B292B313500C483E3 /* Packages */,
+				2A4AFA10292B302300C483E3 /* YXNetflix */,
+				2A4AFA21292B302700C483E3 /* YXNetflixTests */,
+				2A4AFA2B292B302700C483E3 /* YXNetflixUITests */,
+				2A4AFA0F292B302300C483E3 /* Products */,
+				2A4AFA3D292B315900C483E3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2A4AFA0F292B302300C483E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2A4AFA0E292B302300C483E3 /* YXNetflix.app */,
+				2A4AFA1E292B302700C483E3 /* YXNetflixTests.xctest */,
+				2A4AFA28292B302700C483E3 /* YXNetflixUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A4AFA10292B302300C483E3 /* YXNetflix */ = {
+			isa = PBXGroup;
+			children = (
+				2A4AFA11292B302300C483E3 /* YXNetflixApp.swift */,
+				2A4AFA13292B302300C483E3 /* ContentView.swift */,
+				2A4AFA15292B302600C483E3 /* Assets.xcassets */,
+				2A4AFA17292B302600C483E3 /* Preview Content */,
+			);
+			path = YXNetflix;
+			sourceTree = "<group>";
+		};
+		2A4AFA17292B302600C483E3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2A4AFA18292B302600C483E3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2A4AFA21292B302700C483E3 /* YXNetflixTests */ = {
+			isa = PBXGroup;
+			children = (
+				2A4AFA22292B302700C483E3 /* YXNetflixTests.swift */,
+			);
+			path = YXNetflixTests;
+			sourceTree = "<group>";
+		};
+		2A4AFA2B292B302700C483E3 /* YXNetflixUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2A4AFA2C292B302700C483E3 /* YXNetflixUITests.swift */,
+				2A4AFA2E292B302700C483E3 /* YXNetflixUITestsLaunchTests.swift */,
+			);
+			path = YXNetflixUITests;
+			sourceTree = "<group>";
+		};
+		2A4AFA3B292B313500C483E3 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				2A4AFA3C292B313500C483E3 /* Kingfisher-master */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+		2A4AFA3D292B315900C483E3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2A4AFA0D292B302300C483E3 /* YXNetflix */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A4AFA32292B302700C483E3 /* Build configuration list for PBXNativeTarget "YXNetflix" */;
+			buildPhases = (
+				2A4AFA0A292B302300C483E3 /* Sources */,
+				2A4AFA0B292B302300C483E3 /* Frameworks */,
+				2A4AFA0C292B302300C483E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YXNetflix;
+			packageProductDependencies = (
+				2A4AFA3E292B315900C483E3 /* Kingfisher */,
+			);
+			productName = YXNetflix;
+			productReference = 2A4AFA0E292B302300C483E3 /* YXNetflix.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2A4AFA1D292B302700C483E3 /* YXNetflixTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A4AFA35292B302700C483E3 /* Build configuration list for PBXNativeTarget "YXNetflixTests" */;
+			buildPhases = (
+				2A4AFA1A292B302700C483E3 /* Sources */,
+				2A4AFA1B292B302700C483E3 /* Frameworks */,
+				2A4AFA1C292B302700C483E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2A4AFA20292B302700C483E3 /* PBXTargetDependency */,
+			);
+			name = YXNetflixTests;
+			productName = YXNetflixTests;
+			productReference = 2A4AFA1E292B302700C483E3 /* YXNetflixTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2A4AFA27292B302700C483E3 /* YXNetflixUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A4AFA38292B302700C483E3 /* Build configuration list for PBXNativeTarget "YXNetflixUITests" */;
+			buildPhases = (
+				2A4AFA24292B302700C483E3 /* Sources */,
+				2A4AFA25292B302700C483E3 /* Frameworks */,
+				2A4AFA26292B302700C483E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2A4AFA2A292B302700C483E3 /* PBXTargetDependency */,
+			);
+			name = YXNetflixUITests;
+			productName = YXNetflixUITests;
+			productReference = 2A4AFA28292B302700C483E3 /* YXNetflixUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A4AFA06292B302300C483E3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					2A4AFA0D292B302300C483E3 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					2A4AFA1D292B302700C483E3 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 2A4AFA0D292B302300C483E3;
+					};
+					2A4AFA27292B302700C483E3 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 2A4AFA0D292B302300C483E3;
+					};
+				};
+			};
+			buildConfigurationList = 2A4AFA09292B302300C483E3 /* Build configuration list for PBXProject "YXNetflix" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2A4AFA05292B302300C483E3;
+			productRefGroup = 2A4AFA0F292B302300C483E3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2A4AFA0D292B302300C483E3 /* YXNetflix */,
+				2A4AFA1D292B302700C483E3 /* YXNetflixTests */,
+				2A4AFA27292B302700C483E3 /* YXNetflixUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2A4AFA0C292B302300C483E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A4AFA19292B302600C483E3 /* Preview Assets.xcassets in Resources */,
+				2A4AFA16292B302600C483E3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A4AFA1C292B302700C483E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A4AFA26292B302700C483E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2A4AFA0A292B302300C483E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A4AFA14292B302300C483E3 /* ContentView.swift in Sources */,
+				2A4AFA12292B302300C483E3 /* YXNetflixApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A4AFA1A292B302700C483E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A4AFA23292B302700C483E3 /* YXNetflixTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A4AFA24292B302700C483E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A4AFA2F292B302700C483E3 /* YXNetflixUITestsLaunchTests.swift in Sources */,
+				2A4AFA2D292B302700C483E3 /* YXNetflixUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2A4AFA20292B302700C483E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2A4AFA0D292B302300C483E3 /* YXNetflix */;
+			targetProxy = 2A4AFA1F292B302700C483E3 /* PBXContainerItemProxy */;
+		};
+		2A4AFA2A292B302700C483E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2A4AFA0D292B302300C483E3 /* YXNetflix */;
+			targetProxy = 2A4AFA29292B302700C483E3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2A4AFA30292B302700C483E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2A4AFA31292B302700C483E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2A4AFA33292B302700C483E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"YXNetflix/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.testcompany.YXNetflix;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2A4AFA34292B302700C483E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"YXNetflix/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.testcompany.YXNetflix;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2A4AFA36292B302700C483E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.testcompany.YXNetflixTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YXNetflix.app/YXNetflix";
+			};
+			name = Debug;
+		};
+		2A4AFA37292B302700C483E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.testcompany.YXNetflixTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YXNetflix.app/YXNetflix";
+			};
+			name = Release;
+		};
+		2A4AFA39292B302700C483E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.testcompany.YXNetflixUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YXNetflix;
+			};
+			name = Debug;
+		};
+		2A4AFA3A292B302700C483E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.testcompany.YXNetflixUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YXNetflix;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2A4AFA09292B302300C483E3 /* Build configuration list for PBXProject "YXNetflix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A4AFA30292B302700C483E3 /* Debug */,
+				2A4AFA31292B302700C483E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A4AFA32292B302700C483E3 /* Build configuration list for PBXNativeTarget "YXNetflix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A4AFA33292B302700C483E3 /* Debug */,
+				2A4AFA34292B302700C483E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A4AFA35292B302700C483E3 /* Build configuration list for PBXNativeTarget "YXNetflixTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A4AFA36292B302700C483E3 /* Debug */,
+				2A4AFA37292B302700C483E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A4AFA38292B302700C483E3 /* Build configuration list for PBXNativeTarget "YXNetflixUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A4AFA39292B302700C483E3 /* Debug */,
+				2A4AFA3A292B302700C483E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2A4AFA3E292B315900C483E3 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 2A4AFA06292B302300C483E3 /* Project object */;
+}
