@@ -21,6 +21,7 @@
 		2ABBFC09292DF19300F31F36 /* TopMoviePreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ABBFC08292DF19300F31F36 /* TopMoviePreview.swift */; };
 		2ABBFC0B292DF6FA00F31F36 /* SmallVerticalButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ABBFC0A292DF6FA00F31F36 /* SmallVerticalButton.swift */; };
 		2ABBFC0D292DFA4000F31F36 /* WhiteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ABBFC0C292DFA4000F31F36 /* WhiteButton.swift */; };
+		2ABBFDF3292F410500F31F36 /* TopRowButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ABBFDF2292F410500F31F36 /* TopRowButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 		2ABBFC08292DF19300F31F36 /* TopMoviePreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopMoviePreview.swift; sourceTree = "<group>"; };
 		2ABBFC0A292DF6FA00F31F36 /* SmallVerticalButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallVerticalButton.swift; sourceTree = "<group>"; };
 		2ABBFC0C292DFA4000F31F36 /* WhiteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhiteButton.swift; sourceTree = "<group>"; };
+		2ABBFDF2292F410500F31F36 /* TopRowButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopRowButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +116,7 @@
 				2A4AFA11292B302300C483E3 /* YXNetflixApp.swift */,
 				2A4AFA13292B302300C483E3 /* HomeView.swift */,
 				2ABBFC08292DF19300F31F36 /* TopMoviePreview.swift */,
+				2ABBFDF2292F410500F31F36 /* TopRowButton.swift */,
 				2ABBFC0A292DF6FA00F31F36 /* SmallVerticalButton.swift */,
 				2ABBFC0C292DFA4000F31F36 /* WhiteButton.swift */,
 				2A4AFA45292B388700C483E3 /* StandardHomeMovieView.swift */,
@@ -308,6 +311,7 @@
 			files = (
 				2A4AFA14292B302300C483E3 /* HomeView.swift in Sources */,
 				2ABBFC0D292DFA4000F31F36 /* WhiteButton.swift in Sources */,
+				2ABBFDF3292F410500F31F36 /* TopRowButton.swift in Sources */,
 				2ABBFC09292DF19300F31F36 /* TopMoviePreview.swift in Sources */,
 				2A4AFA42292B331800C483E3 /* HomeViewModel.swift in Sources */,
 				2A4AFA44292B346900C483E3 /* GlobalHelper.swift in Sources */,

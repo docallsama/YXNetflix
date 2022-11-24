@@ -15,6 +15,10 @@ struct HomeView: View {
         ZStack {
             Color.black.edgesIgnoringSafeArea(.all)
             ScrollView(showsIndicators: false) {
+                TopRowButton()
+                TopMoviePreview(movie: exampleMovie1)
+                    .padding(.top, -100)
+                    .zIndex(-1.0)
                 LazyVStack {
                     ForEach(vm.allCategories, id:\.self) { category in
                         LazyVStack {
