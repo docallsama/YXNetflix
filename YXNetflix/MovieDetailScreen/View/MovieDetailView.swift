@@ -43,6 +43,30 @@ struct MovieDetailView: View {
                     }
                     EpisodeInfoView(movie: movie)
                     CastInfoView(movie: movie)
+                    
+                    HStack(spacing: 60) {
+                        SmallVerticalButton(text: "My List",
+                                            isOnImage: "checkmark",
+                                            isOffImage: "plus",
+                                            isOn: true) {
+                            print("Tapped")
+                        }
+                        SmallVerticalButton(text: "Rate",
+                                            isOnImage: "hand.thumbsup.fill",
+                                            isOffImage: "hand.thumbsup",
+                                            isOn: true) {
+                            print("Tapped")
+                        }
+                        SmallVerticalButton(text: "Share",
+                                            isOnImage: "square.and.arrow.up",
+                                            isOffImage: "square.and.arrow.up",
+                                            isOn: true) {
+                            print("Tapped")
+                        }
+                        Spacer()
+                    }
+                    .padding()
+                    CustomTabSwitcher(tabs: [.episode, .trailers, .more])
                 }
             }
         }

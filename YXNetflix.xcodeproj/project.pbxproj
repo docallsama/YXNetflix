@@ -28,6 +28,7 @@
 		2ABBFE4E293092A200F31F36 /* CurrentEpisodeInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ABBFE4D293092A200F31F36 /* CurrentEpisodeInfo.swift */; };
 		2ABBFE502930935E00F31F36 /* EpisodeInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ABBFE4F2930935E00F31F36 /* EpisodeInfoView.swift */; };
 		2ABBFE522930988400F31F36 /* CastInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ABBFE512930988400F31F36 /* CastInfoView.swift */; };
+		2ABBFE5429309E0400F31F36 /* CustomTabSwitcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ABBFE5329309E0400F31F36 /* CustomTabSwitcher.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +73,7 @@
 		2ABBFE4D293092A200F31F36 /* CurrentEpisodeInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentEpisodeInfo.swift; sourceTree = "<group>"; };
 		2ABBFE4F2930935E00F31F36 /* EpisodeInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeInfoView.swift; sourceTree = "<group>"; };
 		2ABBFE512930988400F31F36 /* CastInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CastInfoView.swift; sourceTree = "<group>"; };
+		2ABBFE5329309E0400F31F36 /* CustomTabSwitcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabSwitcher.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -211,6 +213,7 @@
 			isa = PBXGroup;
 			children = (
 				2ABBFDF9292F45F100F31F36 /* MovieDetailView.swift */,
+				2ABBFE5329309E0400F31F36 /* CustomTabSwitcher.swift */,
 				2ABBFDFB292F4A9300F31F36 /* RatingView.swift */,
 				2ABBFE4F2930935E00F31F36 /* EpisodeInfoView.swift */,
 				2ABBFE512930988400F31F36 /* CastInfoView.swift */,
@@ -364,6 +367,7 @@
 				2ABBFE502930935E00F31F36 /* EpisodeInfoView.swift in Sources */,
 				2A4AFA12292B302300C483E3 /* YXNetflixApp.swift in Sources */,
 				2A4AFA46292B388700C483E3 /* StandardHomeMovieView.swift in Sources */,
+				2ABBFE5429309E0400F31F36 /* CustomTabSwitcher.swift in Sources */,
 				2ABBFE522930988400F31F36 /* CastInfoView.swift in Sources */,
 				2ABBFDFA292F45F100F31F36 /* MovieDetailView.swift in Sources */,
 			);
