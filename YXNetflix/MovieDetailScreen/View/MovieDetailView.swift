@@ -32,6 +32,17 @@ struct MovieDetailView: View {
                     StandardHomeMovieView(movie: movie)
                         .frame(width: screen.width / 2.5)
                     MovieInfoSubheadline(movie: movie)
+                    if let promotionHeadline = movie.promotionHeadline {
+                        Text(promotionHeadline)
+                            .foregroundColor(.white)
+                            .bold()
+                            .font(.headline)
+                    }
+                    PlayButton(text: "Play", imageName: "play.fill", backgroundColor: .red) {
+   
+                    }
+                    EpisodeInfoView(movie: movie)
+                    CastInfoView(movie: movie)
                 }
             }
         }
@@ -40,7 +51,7 @@ struct MovieDetailView: View {
 
 struct MovieDetailView_Previews: PreviewProvider {
     static var previews: some View {
-        MovieDetailView(movie: exampleMovie1)
+        MovieDetailView(movie: exampleMovie6)
     }
 }
 
