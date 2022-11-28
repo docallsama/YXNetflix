@@ -13,8 +13,7 @@ let exampleEpisode = CurrentEpisodeInfo(episodeName: "Beginnigs and Ending",
                                         season: 2,
                                         episode: 1)
 
-let exampleMovie1 = Movie(id: UUID().uuidString,
-                          name: "DARK",
+let exampleMovie1 = Movie(name: "DARK",
                           thumbnailURL: URL(string: "https://picsum.photos/200/301")!,
                           categories: ["Dystopian", "Exciting", "Suspenseful", "Sci-Fi TV"],
                           year: 2020,
@@ -22,10 +21,10 @@ let exampleMovie1 = Movie(id: UUID().uuidString,
                           numberOfSeasons: 1,
                           defaultEpisode: exampleEpisode,
                           creators: "Baran bo Odan, Jantje Frises",
-                          cast: "Louis Hofmann, Oliver Mascucci")
+                          cast: "Louis Hofmann, Oliver Mascucci",
+                          moreLikeThisMovies: [exampleMovie2, exampleMovie3, exampleMovie4])
 
-let exampleMovie2 = Movie(id: UUID().uuidString,
-                          name: "Travellers",
+let exampleMovie2 = Movie(name: "Travellers",
                           thumbnailURL: URL(string: "https://picsum.photos/200/302")!,
                           categories: ["Dystopian", "Exciting", "Suspenseful", "Sci-Fi TV"],
                           year: 2021,
@@ -33,10 +32,10 @@ let exampleMovie2 = Movie(id: UUID().uuidString,
                           numberOfSeasons: 2,
                           defaultEpisode: exampleEpisode,
                           creators: "Baran bo Odan, Jantje Frises",
-                          cast: "Louis Hofmann, Oliver Mascucci")
+                          cast: "Louis Hofmann, Oliver Mascucci",
+                          moreLikeThisMovies: [])
                           
-let exampleMovie3 = Movie(id: UUID().uuidString,
-                          name: "Communitity",
+let exampleMovie3 = Movie(name: "Communitity",
                           thumbnailURL: URL(string: "https://picsum.photos/200/303")!,
                           categories: ["Dystopian", "Exciting", "Suspenseful", "Sci-Fi TV"],
                           year: 2022,
@@ -44,10 +43,10 @@ let exampleMovie3 = Movie(id: UUID().uuidString,
                           numberOfSeasons: 3,
                           defaultEpisode: exampleEpisode,
                           creators: "Baran bo Odan, Jantje Frises",
-                          cast: "Louis Hofmann, Oliver Mascucci")
+                          cast: "Louis Hofmann, Oliver Mascucci",
+                          moreLikeThisMovies: [])
                           
-let exampleMovie4 = Movie(id: UUID().uuidString,
-                          name: "Alone",
+let exampleMovie4 = Movie(name: "Alone",
                           thumbnailURL: URL(string: "https://picsum.photos/200/304")!,
                           categories: ["Dystopian", "Exciting", "Suspenseful", "Sci-Fi TV"],
                           year: 2019,
@@ -55,10 +54,10 @@ let exampleMovie4 = Movie(id: UUID().uuidString,
                           numberOfSeasons: 4,
                           defaultEpisode: exampleEpisode,
                           creators: "Baran bo Odan, Jantje Frises",
-                          cast: "Louis Hofmann, Oliver Mascucci")
+                          cast: "Louis Hofmann, Oliver Mascucci",
+                          moreLikeThisMovies: [])
 
-let exampleMovie5 = Movie(id: UUID().uuidString,
-                          name: "Hannibal",
+let exampleMovie5 = Movie(name: "Hannibal",
                           thumbnailURL: URL(string: "https://picsum.photos/200/305")!,
                           categories: ["Dystopian", "Exciting", "Suspenseful", "Sci-Fi TV"],
                           year: 2018,
@@ -66,10 +65,10 @@ let exampleMovie5 = Movie(id: UUID().uuidString,
                           numberOfSeasons: 5,
                           defaultEpisode: exampleEpisode,
                           creators: "Baran bo Odan, Jantje Frises",
-                          cast: "Louis Hofmann, Oliver Mascucci")
+                          cast: "Louis Hofmann, Oliver Mascucci",
+                          moreLikeThisMovies: [])
 
-let exampleMovie6 = Movie(id: UUID().uuidString,
-                          name: "After Life",
+let exampleMovie6 = Movie(name: "After Life",
                           thumbnailURL: URL(string: "https://picsum.photos/200/306")!,
                           categories: ["Dystopian", "Exciting", "Suspenseful", "Sci-Fi TV"],
                           year: 2017,
@@ -78,7 +77,8 @@ let exampleMovie6 = Movie(id: UUID().uuidString,
                           defaultEpisode: exampleEpisode,
                           promotionHeadline: "Watch Season 6 Now",
                           creators: "Baran bo Odan, Jantje Frises",
-                          cast: "Louis Hofmann, Oliver Mascucci")
+                          cast: "Louis Hofmann, Oliver Mascucci",
+                          moreLikeThisMovies: [])
 
 
 let exampleMovies: [Movie] = [exampleMovie1, exampleMovie2, exampleMovie3, exampleMovie4, exampleMovie5, exampleMovie6]

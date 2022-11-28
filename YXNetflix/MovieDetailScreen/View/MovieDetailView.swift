@@ -11,6 +11,9 @@ struct MovieDetailView: View {
     var movie: Movie
     let screen = UIScreen.main.bounds
     
+    @State private var showSeasonPicker = true
+    @State private var selectedSeason = 1
+    
     var body: some View {
         ZStack {
             Color.black.edgesIgnoringSafeArea(.all)
@@ -66,7 +69,41 @@ struct MovieDetailView: View {
                         Spacer()
                     }
                     .padding()
-                    CustomTabSwitcher(tabs: [.episode, .trailers, .more])
+                    CustomTabSwitcher(tabs: [.episode, .trailers, .more], movie: movie)
+                }
+                .padding(.horizontal, 10)
+            }
+            .foregroundColor(.white)
+            
+            Group {
+                if showSeasonPicker {
+                    Color.black.opacity(0.9)
+                    VStack(spacing: 40) {
+                        let numberOfSeason: Int = movie.numberOfSeasons ?? 0
+                        ForEach(0..<numberOfSeason, id:\.self) { season in
+                            Button {
+                                self.selectedSeason = season + 1
+                                self.showSeasonPicker = false
+                            } label: {
+                                Text("Season \(season + 1)")
+                                    .foregroundColor(.white)
+                                    .bold()
+                                    .font(self.selectedSeason == season + 1 ? .title : .title2)
+                            }
+                        }
+                        
+                        Spacer()
+                        
+                        Button {
+                            self.showSeasonPicker = false
+                        } label: {
+                            Image(systemName: "x.circle.fill")
+                                .foregroundColor(.white)
+                                .font(.system(size: 40))
+                                .scaleEffect(x: 1.1)
+                        }
+                        .padding(.bottom, 30)
+                    }
                 }
             }
         }
@@ -75,7 +112,7 @@ struct MovieDetailView: View {
 
 struct MovieDetailView_Previews: PreviewProvider {
     static var previews: some View {
-        MovieDetailView(movie: exampleMovie6)
+        MovieDetailView(movie: exampleMovie1)
     }
 }
 

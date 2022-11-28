@@ -15,7 +15,9 @@ enum CustomTab: String {
 
 struct CustomTabSwitcher: View {
     var tabs: [CustomTab]
+    var movie: Movie
     @State private var currentTab = CustomTab.episode
+    
     var body: some View {
         VStack {
             ScrollView(.horizontal, showsIndicators: false) {
@@ -40,6 +42,15 @@ struct CustomTabSwitcher: View {
                     }
                 }
             }
+            
+            switch currentTab {
+            case .episode:
+                Text("episode")
+            case .trailers:
+                Text("trailers")
+            case .more:
+                MoreLikeThisView(movies: movie.moreLikeThisMovies)
+            }
         }
     }
     
@@ -53,7 +64,7 @@ struct CustomTabSwitcher_Previews: PreviewProvider {
     static var previews: some View {
         ZStack {
             Color.black.edgesIgnoringSafeArea(.all)
-            CustomTabSwitcher(tabs: [.episode, .trailers, .more])
+            CustomTabSwitcher(tabs: [.episode, .trailers, .more], movie: exampleMovie1)
         }
     }
 }
